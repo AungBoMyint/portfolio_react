@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "name": "Shwe Thiri Khit",
+        "desc":"Developed the Shwe Thiri Khit self-improvement app to empower young women worldwide. Integrated Firebase, Cloud Messaging, and Cloud Functions for real-time updates and notifications. Provided creative, business, and self-development content to inspire users toward personal growth and success.",
+        "image":"https://i.postimg.cc/Bbyf5fpF/image.jpg",
+        "androidLink":"https://play.google.com/store/apps/details?id=com.kzn.shwethirikhit&hl=th",
+        "iosLink":"https://apps.apple.com/th/app/shwe-thiri-khit/id6448650766",
+        "developed_at":"March 19, 2024",
+        "created_at":"Apr 26, 2024"
+    },
+    {
+        "id":"2",
+        "name": "Shwe Thiri Khit",
+        "desc":"Developed the Shwe Thiri Khit self-improvement app to empower young women worldwide. Integrated Firebase, Cloud Messaging, and Cloud Functions for real-time updates and notifications. Provided creative, business, and self-development content to inspire users toward personal growth and success.",
+        "image":"https://i.postimg.cc/Bbyf5fpF/image.jpg",
+        "androidLink":"https://play.google.com/store/apps/details?id=com.kzn.shwethirikhit&hl=th",
+        "iosLink":"https://apps.apple.com/th/app/shwe-thiri-khit/id6448650766",
+        "developed_at":"March 19, 2024",
+        "created_at":"Apr 26, 2024"
+    }
+]

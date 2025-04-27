@@ -1,4 +1,5 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { useEffect, useRef, useState } from "react";
 
 interface Props {
   icon: any;
@@ -7,7 +8,7 @@ interface Props {
   index: number;
 }
 const ExperienceCard = (props: Props) => {
-  /* const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(true);
   const elementRef = useRef(null);
 
   useEffect(() => {
@@ -30,11 +31,11 @@ const ExperienceCard = (props: Props) => {
         observer.unobserve(elementRef.current);
       }
     };
-  }, []); */
+  }, []);
   return (
     <Box
-      /* ref={elementRef} */
-      data-state={"open"}
+      ref={elementRef}
+      data-state={isVisible ? "open" : "close"}
       _open={{
         animationName: "scale-in",
         animationDuration: `2000ms`,
